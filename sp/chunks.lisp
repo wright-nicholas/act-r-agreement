@@ -109,3 +109,9 @@
 ;; Add-on: Kemper et al.
 (noun soldiers :id soldiers-n)
 
+;; add-on: me
+(noun key :id key-n)
+(noun cabinets :id cabinets-n)
+(verb were :id were-i  :cat I-V   :number plural)
+(adj rusty :id rusty-adj)
+(adv quickly :id quickly-adj)

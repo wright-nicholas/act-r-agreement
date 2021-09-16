@@ -224,8 +224,35 @@ the writer said that the medic thought that the assistant admired the student *s
 (setf *kck04-c* "The soldiers spoke about the dangers before the midnight raid *")
 (setf *kck04-d* "The soldiers who were told about the dangers conducted the midnight raid *")
 
+;;; Me
+(setf *agree-a* "The key to the cabinets was rusty *")
+(setf *agree-b* "The key to the cabinets were rusty *")
+(setf *nomod* "The editor hired the assistant *")
+(setf *premod* "The editor quickly hired the assistant *")
+(setf *postmod* "The editor hired quickly the assistant *") ; this sounds weird
+
 
 ;; EXPERIMENTS
+(define-experiment complexity-1
+  :full-name "complexity effects"
+  :plot-data yes
+  :conditions
+  ((no-mod   *nomod*   (critical-verb :position 3))
+   (pre-mod  *premod*  (critical-verb :position 4))
+   (post-mod *postmod* (critical-verb :position 3))
+  )
+)
+
+(define-experiment agree-attract
+  :full-name "agreement attraction"
+  :plot-data yes
+  :conditions
+  ((gram   *agree-a* (critical-verb :position 6))
+   (ungram    *agree-b* (critical-verb :position 6))
+  )
+)
+
+
 
 (define-experiment VL-exp4
   :full-name "Van Dyke & Lewis (2003) Exp. 4"
