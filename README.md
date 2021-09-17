@@ -1,7 +1,7 @@
 ## An integrated model of eye movement behaviour in sentence comprehension ##
 An ACT-R sentence parsing model based on Lewis & Vasishth (2005), interacting with eye movement control.  
 This is part of the PhD Thesis of Felix Engelmann, submitted to the University of Potsdam, 2016.
-Changes were made by Nicholas Wright to use the parser to model subject-verb agreement as a part of a
+Changes by Nicholas Wright are in progress to use the parser to model subject-verb agreement as a part of a
 project at William & Mary's Computational and Experimental Linguistics Lab under Dr. Dan Parker.
 
 This model includes:
