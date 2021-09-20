@@ -1,6 +1,8 @@
 ## An integrated model of eye movement behaviour in sentence comprehension ##
 An ACT-R sentence parsing model based on Lewis & Vasishth (2005), interacting with eye movement control.  
-This is part of the PhD Thesis of Felix Engelmann, submitted to the University of Potsdam, 2016.  
+This is part of the PhD Thesis of Felix Engelmann, submitted to the University of Potsdam, 2016.
+Changes by Nicholas Wright are in progress to use the parser to model subject-verb agreement as a part of a
+project at William & Mary's Computational and Experimental Linguistics Lab under Dr. Dan Parker.
 
 This model includes:
 - an ACT-R 6.0 distribution
@@ -23,7 +25,7 @@ Download the CCL package for your platform here: ftp://ftp.clozure.com/pub/relea
 #### R packages
 In order to run the scripts provided for analysis, you need to ensure that R and the following packages are installed:  
 
-If you don not already have R installed, you can retrieve it from https://www.r-project.org/.
+If you do not already have R installed, you can retrieve it from https://www.r-project.org/.
 
  - ggplot2 (plotting)
  - tidyr (data wrangling)
