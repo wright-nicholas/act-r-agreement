@@ -60,7 +60,7 @@
 (defun load-sp-core NIL
   (load "../sp/helper-functions")
   (load "../sp/interface")
-  ;;(load "../sp/interface-emma")
+  (load "../sp/interface-emma")
   (load "../sp/experiment-control-original")
   (load "../sp/experiment-control")
   (load "../sp/support-lexicon")
@@ -132,7 +132,7 @@
 (load-sp-core)
 (compile-file "../sp/helper-functions")
 (compile-file "../sp/interface")
-;;(compile-file "../sp/interface-emma")
+(compile-file "../sp/interface-emma")
 (compile-file "../sp/experiment-control-original")
 (compile-file "../sp/experiment-control")
 (compile-file "../sp/support-lexicon")

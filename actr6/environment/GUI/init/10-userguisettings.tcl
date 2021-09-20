@@ -17,8 +17,8 @@ if $size_mismatch {
 if {$reset_window_sizes != "yes"} {
   set window_config(.control_panel) 235x700+1665+190
   set changed_window_list(.control_panel) 1
-  set window_config(.copyright) 400x466+760+307
-  set changed_window_list(.copyright) 1
   set window_config(.reload_response) 500x230+710+425
   set changed_window_list(.reload_response) 1
+  set window_config(.copyright) 400x466+760+307
+  set changed_window_list(.copyright) 1
 }
