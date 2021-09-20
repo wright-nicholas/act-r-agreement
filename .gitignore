@@ -115,3 +115,6 @@ LewisVasishth2005/paramsearch/bak/fit-experiment.R
 VBLD2008/paramsearch/.Rapp.history
 
 VBLD2008/paramsearch/copy-files.R
+
+**/*.lx64fsl
+sp/*.lx64fsl
